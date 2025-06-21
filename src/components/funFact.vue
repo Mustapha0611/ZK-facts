@@ -5,12 +5,6 @@
     </div>
     <div class="lg:p-4 p-2" v-if="funFacts.factData && funFacts.factData.fact">
       <section>
-        <!-- <p class="text-lg font-light text-center">
-          "{{ funFacts.facts[rand].fact }}"
-        </p>
-        <p class="text-right italic font-light">
-          - {{ funFacts.facts[rand].author_name }}
-        </p> -->
         <p class="text-lg font-light text-center">
           "{{ funFacts.factData?.fact }}"
         </p>
@@ -45,7 +39,7 @@ onMounted(() => {
   getRandomFact();
 });
 
-const rand = ref(0);
+
 const getRandomFact = () => {
   funFacts.fetchRandomFact()
 };
