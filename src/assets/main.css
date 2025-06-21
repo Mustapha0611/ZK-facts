@@ -1,0 +1,7 @@
+@import "tailwindcss";
+
+/* main.css or a <style> block */
+.p-toast {
+  width: 330px !important; /* or whatever width you want */
+  max-width: 90vw;
+}
