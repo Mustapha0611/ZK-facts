@@ -1,29 +1,41 @@
-# union fun facts
+# Union Fun Facts
 
-This template should help get you started developing with Vue 3 in Vite.
+A simple Vue 3 app built with Vite that displays and lets you add fun facts about unions. The backend is powered by Supabase.
+
+## Features
+
+- View random fun facts about unions
+- Add your own fun facts
+- Responsive and fast UI powered by Vue 3 + Vite
+- Backend storage with Supabase
 
 ## Recommended IDE Setup
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+- [VSCode](https://code.visualstudio.com/)
+- [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (disable Vetur if enabled)
 
-## Customize configuration
+## Getting Started
 
-See [Vite Configuration Reference](https://vite.dev/config/).
-
-## Project Setup
+### Install dependencies
 
 ```sh
 npm install
 ```
 
-### Compile and Hot-Reload for Development
+### Start development server
 
 ```sh
 npm run dev
 ```
 
-### Compile and Minify for Production
+### Build for production
 
 ```sh
 npm run build
 ```
+
+## Learn More
+
+- [Vue 3 Documentation](https://vuejs.org/)
+- [Vite Documentation](https://vite.dev/)
+- [Supabase Documentation](https://supabase.com/docs)
