@@ -60,7 +60,7 @@ export const usefunFacts = defineStore("factsStore", () => {
 
   // Fetch a random fact by ID (accounting for ID gaps)
   const fetchRandomFact = async () => {
-    factData.value = null; // Reset previous fact data
+    factData.value = null; 
     isLoading.value = true;
 
     const { data: maxIdData, error: maxIdError } = await supabase
