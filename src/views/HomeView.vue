@@ -44,7 +44,7 @@ const factsStore = usefunFacts()
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 100vh;
+  height: 100dvh;
   overflow: hidden;
 }
 

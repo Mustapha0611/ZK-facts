@@ -1,6 +1,6 @@
 <template>
   <main class="min-h-[20vh]">
-    <div class="h-100vh w-full flex pt-4 items-center justify-center">
+    <div class=" w-full flex pt-4 items-center justify-center">
       <h1 class="text-3xl font-semibold text-center">Union build : ZK-Fact</h1>
     </div>
     <div class="lg:p-4 p-2" v-if="funFacts.factData && funFacts.factData.fact">
@@ -22,8 +22,8 @@
       </section>
     
     </div>
-    <div v-else class="flex items-center justify-center h-[30vh]">
-        <p class="text-2xl font-semibold animate-bounce">Loading Zkg facts...</p>
+    <div v-else class="flex items-center justify-center h-[20vh]">
+        <p class="text-2xl font-semibold animate-bounce">Loading Zkg fact...</p>
     </div>
   </main>
 </template>
