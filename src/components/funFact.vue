@@ -12,7 +12,7 @@
           - {{ funFacts.factData?.Author }}</p>
 
       </section>
-      <section class="flex gap-4 md:gap-2 justify-center md:flex-row mt-4 mb-2 md:mb-0  w-full">
+      <section class="flex gap-4 md:gap-2 justify-center md:flex-row mt-4 mb-2  w-full">
         <button @click="getRandomFact" class="animated-border-btn text-xs md:text-sm">
           More ZK-fact
         </button>

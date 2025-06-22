@@ -18,7 +18,7 @@ const factsStore = usefunFacts()
         <AddFact v-if="factsStore.showAddFactModal" />
       </transition>
     </div>
-    <div class="text-white z-50 absolute bottom-5">Build by Musteey  <a href="https://x.com/MustaphaMS007" target="_blank" class="border px-2 py-1 rounded-xl transition-all hover:bg-slate-100 hover:text-zinc-900">Say Hello on X</a></div>
+    <div class="text-white z-50 absolute bottom-5 flex items-center gap-2">Built by Musteey  <a href="https://x.com/MustaphaMS007" target="_blank" class=" flex items-center gap-2 border px-2 py-1 rounded-xl transition-all hover:bg-slate-100 hover:text-zinc-900"><span>Say Hello on  </span><i class="pi pi-twitter"></i></a></div>
   </main>
 </template>
 

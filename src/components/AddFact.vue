@@ -1,5 +1,5 @@
 <template>
-    <section class="absolute w-[100vw] backdrop-blur-md h-screen top-0  left-0 z-50 bg-black/20 flex items-center justify-center">
+    <section class="absolute h-[100dvh] overflow-hidden w-[100vw] backdrop-blur-md  top-0  left-0 z-50 bg-black/20 flex items-center justify-center">
         <div class="bg-zinc-950  min-h-[20vh] w-[90%] md:w-[50%] shadow-emerald-800 shadow-md rounded-lg px-8 py-4">
           <p class="md:text-3xl text-lg font-semibold text-center mb-5">Prove your own ZK-Fact</p>
           <textarea name="" id="" cols="30" v-model="funFacts.fact" class="bg-slate-200 rounded-md w-full p-2 text-zinc-950 font-light text-sm h-20 outline" placeholder="Write You Zk fact here"></textarea>
@@ -15,7 +15,7 @@
             class="animated-border-btn mt-4"
             @click="funFacts.addFact()"
           >
-            Prove Zk-Fact
+            {{funFacts.isLoading ? "Proving..." : "Prove ZK-Fact"}}
             <span class="pi pi-spin pi-spinner" v-if="funFacts.isLoading"></span>
           </button>
         </div>

@@ -2,6 +2,11 @@
 
 /* main.css or a <style> block */
 .p-toast {
-  width: 330px !important; /* or whatever width you want */
   max-width: 90vw;
+}
+
+@media (max-width: 420px) {
+  .p-toast {
+    width: 95% !important;
+  }
 }

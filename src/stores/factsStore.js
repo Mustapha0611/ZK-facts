@@ -11,6 +11,7 @@ export const usefunFacts = defineStore("factsStore", () => {
   const isLoading = ref(false);
   const showAddFactModal = ref(false);
   const factData = ref(null); // single random fact
+  
 
   // Add a new ZK fact
   const addFact = async () => {
@@ -25,7 +26,7 @@ export const usefunFacts = defineStore("factsStore", () => {
     }
 
     isLoading.value = true;
-
+    
     const { data, error } = await supabase
       .from("Union-facts")
       .insert([{ fact: fact.value, Author: Author.value }])
@@ -54,7 +55,7 @@ export const usefunFacts = defineStore("factsStore", () => {
       Author.value = "";
       showAddFactModal.value = false;
     }
-
+    
     isLoading.value = false;
   };
 
